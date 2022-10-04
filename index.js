@@ -15,6 +15,6 @@ server.get('/Profile',(req,res)=>{
     res.send('<h1>PROFILE PAGE</h1>');
 });
 
-server.listen(port,()=>{
+server.listen(process.env.PORT || port,()=>{
     console.log('Server running on'+port);
 });
