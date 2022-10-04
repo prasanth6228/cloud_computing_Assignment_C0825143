@@ -1,0 +1,2 @@
+#exclue all the node_dependecies while pushing to git
+node_modules
